@@ -132,6 +132,10 @@ ul.nav.list > li {
   margin: 0;
 }
 
+.Module.logo h1 span.subtitle {
+  color: #999;
+}
+
 .Module.navigation {
   font-size: 1.1em;
   font-variant: small-caps;
