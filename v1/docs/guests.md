@@ -39,9 +39,9 @@ system implementation, only the above two features need to be implemented.
 
 Creating a new guest implementer is quite simple: Inherit from `Vagrant::Guest::Base`
 and implement the stubbed method on that class. Instead of going over each method here,
-I'll point you to the [base source file](http://github.com/mitchellh/vagrant/blob/master/lib/vagrant/guest/base.rb)
+I'll point you to the [base source file](https://github.com/mitchellh/vagrant/blob/1-0-stable/lib/vagrant/guest/base.rb)
 which is thoroughly commented to explain each method. It's also recommended you view the
-[linux guest](http://github.com/mitchellh/vagrant/blob/master/lib/vagrant/guest/linux.rb)
+[linux guest](https://github.com/mitchellh/vagrant/blob/1-0-stable/lib/vagrant/guest/linux.rb)
 to get an idea of what an implementation looks like.
 
 ## Using a New Guest Implementation
