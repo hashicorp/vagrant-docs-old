@@ -58,7 +58,7 @@ env = Vagrant::Environment.new(:cwd => "/path/to/my/project")
 
 All available `vagrant` command line tools are available in code through
 the `cli` method on the environment instance. This allows you to
-easily to run the command line tools in the context of an environment
+easily run the command line tools in the context of an environment
 without any extra fuss. The following is a simple rake task that simply
 does the equivalent of `vagrant up` but does some extra, useless things
 around it:
