@@ -11,7 +11,8 @@ information in order to troubleshoot your issues. To enable logging, the
 `VAGRANT_LOG` environmental variable must be set to the desired log
 level name, such as `INFO` or `DEBUG`. For example, on linux systems:
 
-    $ VAGRANT_LOG=INFO vagrant up
+    $ VAGRANT_LOG=INFO 
+    $ vagrant up
 
 On Windows, you must use `set` to set an environmental variable:
 
