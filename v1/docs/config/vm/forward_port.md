@@ -27,7 +27,7 @@ to port 80 on the guest machine.
 As an optional 3rd parameter, you may pass an options hash. Currently
 accepted options are:
 
-* `:adapter` - This is the adpater number that the forwarded port
+* `:adapter` - This is the adapter number that the forwarded port
   definition should be attached to. Forwarded ports can only be attached
   to NAT devices.
 * `:auto` - If this is set to `true` then Vagrant will automatically
