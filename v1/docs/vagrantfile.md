@@ -7,7 +7,7 @@ current: Vagrantfile
 # Vagrantfile
 
 The Vagrantfile is a Ruby file used to configure Vagrant on a per-project basis.
-The main function of the Vagrantfile is to described the virtual machines required
+The main function of the Vagrantfile is to describe the virtual machines required
 for a project as well as how to configure and provision these machines. Although
 the contents of a Vagrantfile are Ruby, knowledge of Ruby is not necessary to make
 modifications to the file since it is mostly simple variable assignment.
