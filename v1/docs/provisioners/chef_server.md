@@ -92,7 +92,7 @@ end
 
 If you're using Chef 0.10 or later, you have access to
 [environments](http://wiki.opscode.com/display/chef/Environments).
-If you'd like to configure the environment you're node is part of, simply
+If you'd like to configure the environment your node is part of, simply
 use the `environment` configuration option:
 
 {% highlight ruby %}
