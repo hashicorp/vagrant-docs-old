@@ -128,7 +128,7 @@ is not an available command, install the `sudo` package for your operating syste
 The line you should add in the `visudo` configuration to do that looks like this:
 
 {% highlight bash %}
-%admin ALL=NOPASSWD: ALL
+%admin ALL=(ALL) NOPASSWD: ALL
 {% endhighlight %}
 
 Once that is setup, you may need to make the 'admin' group, and you then need to
